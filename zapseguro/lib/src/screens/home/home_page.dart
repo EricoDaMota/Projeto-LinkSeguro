@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
               decoration: BoxDecoration(color: Colors.amber),
               child: Center(
                 child: const Text(
-                  'Verificar Segurança',
+                  'Visualizar Mensagens suspeitas',
                   style: TextStyle(fontSize: 26),
                 ),
               ),
@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
                 decoration: BoxDecoration(color: Colors.red),
                 child: Center(
                   child: const Text(
-                    'Checar notificalções',
+                    'Escolher Responsável',
                     style: TextStyle(fontSize: 26),
                   ),
                 ),
@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                 decoration: BoxDecoration(color: Colors.blue),
                 child: Center(
                   child: const Text(
-                    'Cadastrar um novo Reponsável',
+                    'Solicitar Ajuda',
                     style: TextStyle(fontSize: 26),
                   ),
                 ),
